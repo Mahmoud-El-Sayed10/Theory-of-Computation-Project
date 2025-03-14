@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: #003366; /* Navy blue */
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #5a7fab; /* Light navy blue border */
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: #003366; /* Navy blue */
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inputString {
+    width: 96%;
+}
+#inputString::placeholder {
+    color: #004080; /* Deep sky blue */
+    font-weight: bold;
+}
+
+input:focus {
+    border-color: #004080; /* Deep sky blue */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5); /* Light blue shadow */
+    color: #003366; /* Navy blue text */
+}
+
+button:hover {
+    border: 3px solid #003366; /* Navy blue border */
+    background-color: #5a7fab; /* Light navy blue */
+}
+
+#network {
+    height: 500px;
+    border: 1px solid #003366; /* Navy blue border */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.output {
+    margin-top: 10px;
+    padding: 10px;
+    background: #003366; /* Navy blue */
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}

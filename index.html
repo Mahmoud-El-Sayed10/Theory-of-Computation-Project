@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFSA Implementation</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>DAFSA Implementation</h2>
+        <input id="inputString" type="text" placeholder="Enter a string">
+        <button onclick="addString()">Add String</button>
+        <button onclick="searchString()">Search String</button>
+        <button onclick="minimizeDAFSA()">Minimize DAFSA</button>
+        <button onclick="updateGraph()">Show DAFSA Graph</button>
+        <button onclick="clearGraph()">Clear Graph</button>
+        <div id="output" class="output"></div>
+        <div id="network"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
